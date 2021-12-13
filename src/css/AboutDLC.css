@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    /* border: 2px solid red; */
+
+    width: 100vw;
+    height: 100vh;
+}
+.background-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid green;  */
+
+}
+.nav-bar{
+    position: relative;
+    bottom: 95%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.nav-items{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+
+}
+.nav-link{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin :30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+
+}
+.headerinfo{
+    width: 50%;
+    /* border: 3px solid orange; */
+    position: relative;
+    bottom: 80%;
+    left: 20%;
+    font-size: 62px;
+    color: white;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+   }
+.heading{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.section2{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height:190vh;
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    width: 100%;
+    height:30%;
+    font-size: 35px;
+    line-height:1.5;
+    position: relative;
+    top:9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:70%;
+}
+.headingandpara{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.mainhead{
+    font-size: 37px;
+    position: relative;
+    top: 17%;
+    left: 19%;
+
+}
+.para1{
+    position: relative;
+    top:20%;
+    left: 19%;
+    font-size: 17px;
+    line-height: 1.8;
+    font-style: normal;
+}
+.para2{
+    position: relative;
+    top:25%;
+    left: 19%;
+    font-size: 17px;
+    line-height: 1.8;
+    font-style: normal;
+}
+.imageclass{
+    /* border: 2px solid blue; */
+    width:50%
+
+}
+.imgmain{
+    max-height: 85%;
+    position: relative;
+    top:6%;
+}
+
+
+.section3{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 125vh;
+    padding:4%;
+    
+}
+.mainimg{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8%;
+}
+
+.section4{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 120vh;
+    
+}
+.mainimg2{
+    /* border: 2px solid yellow;  */
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.section5{
+    /* border: 3px solid rgb(255, 0, 13);  */
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.section-container1{
+    width: 50%;
+}
+.imagecontainer1{
+    /* border: 2px solid blue;  */
+    position:relative;
+    top: 11%;
+}
+.image1{
+    max-height: 80%;
+    max-width: 90%;
+    position: relative;
+    left: 20%;
+}
+.section-container2{
+    /* border: 3px solid rgb(104, 52, 52);  */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    
+}
+.headandparagraph{
+   /* border: 2px solid red;  */
+   margin:7%; 
+   height:60%;
+   width:70%
+}
+.headingpart{
+    font-size: 35px;
+    position: relative;
+    top:34%;
+    left: 1%;
+
+}
+.paragraph{
+    position: relative;
+    top: 41%;
+    font-size: 17px;
+    line-height: 1.5;
+    font-style: normal;
+}
+.imagecontainer2{
+    /* border: 2px solid yellow;  */
+    height:40%;
+
+
+}
+.image2{
+    max-height: 80%;
+    position: relative;
+    left: 9%;
+}
+
+
+
+
+.section6{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 130vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+.mainimg3{
+    /* border: 2px solid yellow;  */
+    width: 100%;
+    height: 100%;
+    padding-bottom:5%;
+}
+
+
+.section7{
+    /* border: 3px solid rgb(255, 0, 13);  */
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.section-containers1{
+    /* border: 3px solid rgb(104, 52, 52);  */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    
+}
+.headandparagraph1{
+/* border: 2px solid red; */
+   margin:4%; 
+   height:50%
+}
+.headingpart1{
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+    left: 17%;
+}
+.paragraph1{
+    position: relative;
+    top: 30%;
+    left: 17%;
+    font-size: 17px;
+    line-height: 1.8;
+    font-style: normal;
+}
+.imagecontainers1{
+    /* border: 2px solid yellow;   */
+    height:40%;
+    width: 100%;
+
+
+}
+.images1{
+    max-height: 80%;
+    width: 69%;
+    position: relative;
+    left: 15%;
+}
+.section-containers2{
+    width: 40%;
+}
+.imagecontainers2{
+    /* border: 2px solid blue;   */
+    position:relative;
+    top: 2%;
+    left: 2%;
+}
+.images2{
+    max-height: 80%;
+    max-width: 90%;
+    position: relative;
+    left: 6%;
+}
+
+
+.section8{
+    /* border: 2px solid red;  */
+    width: 100vw;
+    height: 80vh;
+}
+.img-card1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    background-image:url(../assets/AboutDLCimg/img10.jpg);
+    background-size: cover;
+}
+.title{
+    width: 40%;
+    color: white;
+    font-size: 55px;
+    position: relative;
+    top:35%;
+    left: 37%;
+}
+.img-button1{
+    position: relative;
+    top:40%;
+    left: 41%;
+    width:12%;
+    padding: 22px;
+    align-items: center;
+    background-color: white;
+}
+
+
+.section9{
+    /* border: 2px solid red; */
+    background-color:#111a1d;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+}
+.footer-item-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+
+.footer-items {
+    display: flex;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.contact-info, .link, .page {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    opacity: 0.5;
+    width: 50%;
+    position: relative;
+    left: 9%;
+    bottom: 10%;
+}
+
+

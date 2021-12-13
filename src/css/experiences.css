@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    width: 100vw;
+    height: 100vh;
+}
+.background-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid green;  */
+
+}
+.nav-bar{
+    position: relative;
+    bottom: 95%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.nav-items{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+
+}
+.nav-link{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin :30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+.headerinfo{
+    position: relative;
+    bottom: 80%;
+    margin-left: 20%;
+    font-size: 60px;
+    color: white;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+   }
+.heading{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.section2{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height:180vh;
+    display: flex;
+    flex-direction: column;
+}
+.paracontainer1{
+    width: 100%;
+    height:30%;
+    font-size: 35px;
+    line-height:1.5;
+    position: relative;
+    top:9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paraimagecontainer2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:70%;
+}
+.headandparagraph{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.headingpart{
+    font-size: 26px;
+    position: relative;
+    top: 20%;
+    left: 19%;
+
+}
+
+.paragraph{
+    position: relative;
+    top:25%;
+    left: 19%;
+    font-size: 17px;
+    line-height: 2;
+    font-style: normal;
+}
+.image{
+    /* border: 2px solid blue; */
+    width:50%
+
+}
+.img{
+    max-height: 80%;
+    position: relative;
+    top:6%;
+}
+.section3{
+    /* border: 2px solid red; */
+    width:100vw;
+    height:180vh;
+}
+.golfcontainer{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+
+}
+.leftimg{
+    /* border: 2px solid red; */
+    width: 74%;
+    height: 75%;
+    position: relative;
+    bottom: 40%;
+}
+.img2{
+   width:100%;
+   height:100%;
+}
+.rightinformation{
+    /* border: 2px solid green;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin-top: 17%;
+    padding: 1%;
+    position: relative;
+    bottom: 125%;
+    left: 52%;
+    background-color: white;
+}
+.img-heading{
+    font-size: 26px;
+    position: relative;
+    left: 9%;
+    bottom: 5%;
+    
+}
+.img-para{
+    font-size: 18px;
+    line-height: 1.8;
+    position: relative;
+    left: 9%;
+    font-style: normal;
+    }
+.img-button{
+    position: relative;
+    top:8%;
+    left: 9%;
+    width:32%;
+    padding: 22px;
+    align-items: center;
+    background-color: white;
+}
+ #shadow1 {
+    width:70%;
+    height: 50%;
+    position: relative;
+    top: 39%;
+    left:8%;
+    /* border: 3px solid blue; */
+    background-color:lightgrey;
+} 
+.section4{
+    /* border: 2px solid red;  */
+    width:100vw;
+    height:140vh;
+}
+#shadow2{
+    width:70%;
+    height: 60%;
+    position: relative;
+    top: 33%;
+    left:21%; 
+    /* border: 3px solid blue;  */
+    background-color:lightgrey;
+}  
+.outdoorcontainer{
+    /* border: 2px solid black;  */
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+
+}
+
+.rightimg{
+    /* border: 2px solid red;  */
+    width: 74%;
+    height: 88%;
+    position: relative;
+    bottom: 60%; 
+    left: 25%;
+}
+.img3{
+   width:100%;
+   height:100%;
+}
+.leftinformation{
+    /* border: 2px solid green;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 58%;
+    margin-top: 17%;
+    padding: 1%;
+    position: relative;
+    bottom: 157%;
+    left: 5%;
+    background-color: white;
+}
+.img-heading2{
+    font-size: 26px;
+    position: relative;
+    left: 9%;
+    bottom: 5%;
+    
+}
+.img-para2{
+    font-size: 18px;
+    line-height: 1.8;
+    position: relative;
+    left: 9%;
+    font-style: normal;
+    }
+.img-button2{
+    position: relative;
+    top:8%;
+    left: 9%;
+    width:32%;
+    padding: 22px;
+    align-items: center;
+    background-color: white;
+}
+.section5{
+    /* border: 2px solid red;  */
+    width:100vw;
+    height:150vh;
+}
+.Wellnesscontainer{
+     /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+
+}
+.leftimg1{
+    /* border: 2px solid red;  */
+    width: 74%;
+    height: 78%;
+    position: relative;
+    bottom: 43%;
+}
+.img4{
+   width:100%;
+   height:100%;
+}
+.rightinformation1{
+     /* border: 2px solid green;    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+    margin-top: 17%;
+    position: relative;
+    bottom: 128%;
+    left: 52%;
+    background-color: white;
+}
+.img-heading1{
+    font-size: 26px;
+    position: relative;
+    left: 9%;
+    bottom: 11%;
+     
+}
+.img-para1{
+    font-size: 18px;
+    line-height: 1.8;
+    position: relative;
+    bottom: 5%;
+    left: 9%;
+    font-style: normal;
+    }
+.img-button3{
+    position: relative;
+    top: 5%;
+    left: 9%;
+    width:32%;
+    padding: 22px;
+    align-items: center;
+    background-color: white;
+}
+
+
+ #shadow3 {
+    width:70%;
+    height: 50%;
+    position: relative;
+    top: 39%;
+    left:8%;
+    /* border: 3px solid blue; */
+    background-color:lightgrey;
+} 
+
+.section6{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 85vh;
+    /* overflow: hidden; */
+}
+.img-card1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    background-image:url(../assets/experienceimg/img5.jpg);
+    background-size: cover;
+}
+.title{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top:35%;
+    left: 37%;
+}
+.img-button1{
+    position: relative;
+    top:40%;
+    left: 41%;
+    width:15%;
+    padding: 22px;
+    align-items: center;
+    background-color: white;
+}
+.section7
+{
+    background-color:#111a1d;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+}
+.footer-item-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+
+.footer-items {
+    display: flex;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.contact-info, .link, .page {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    opacity: 0.5;
+    width: 50%;
+    position: relative;
+    left: 9%;
+    bottom: 10%;
+}
+
